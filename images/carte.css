@@ -1,0 +1,85 @@
+/* @import url("header.css");
+@import url("articles.css");
+@import url("activites.css"); */
+
+:root {
+    --bleu: #0065fc;
+    --text: #ffffff;
+    --titre: #afaf00;
+    --bclair: #DEEBFF;
+    --gris: #f2F2F2;
+    --ombre: 0 0 10px #bfbfbf;
+    --hover: #dfa12f;
+    --body-back:   #2f2c2c;
+    --section-bac: #5f5151;
+    --button: red ;
+
+}
+
+
+body{
+    background-color: var(--body-back);
+/*     background-image: url("template-bootstrap-4/images/mer.jpg"); */
+    font-family:'Relaway', sans serif ;
+
+}
+li{
+    list-style: none;
+}
+a{
+    color: var(--text);
+    text-decoration:none;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+h5, h4, h2{
+    color: var(--text);
+}
+h6, p{
+    color: var(--titre);
+}
+body button:hover {
+    font-size: 2rem;
+    text-decoration:none;
+    color: var(--hover);
+}
+header, footer{
+        background-color: var(--section-bac);
+    /*     background-image:url("template-bootstrap-4/images/belle.jpg"); */
+}
+body button{
+    background-color:var(--button);
+    border: none;
+    border-radius:2px;
+}
+body button a {
+    
+}
+header h4{
+    font-size:3rem;
+    
+}
+
+/* #bandeau{
+    height: ;
+    overflow: hidden;
+} */
+na ul ul { 
+    display: none;
+    position: absolute;
+    top:;
+    left:;
+    width:;
+    z-index:;
+    background-color: ;
+
+}
+nav ul >li ul{
+    position: relative;
+    padding-left: ;
+    padding-right: ;
+
+}
